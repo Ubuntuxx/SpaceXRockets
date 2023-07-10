@@ -1,1 +1,24 @@
-<p>main works!</p>
+
+<div class="main__content text-center mt-5 mb-5">
+  <h1>{{titulo}}</h1>
+</div>
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-4">
+    <div class="card col" *ngFor="let item of data">
+      <img [src]="item.flickr_images" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">{{item.name}}</h5>
+        <p class="card-text">{{item.description}}</p>
+        <ul>
+          <li>Altura: {{item.height.meters}} Mts</li>
+          <li>Costo por lanzamiento: ${{item.cost_per_launch | number}} USD</li>
+          <li>{{item.company}}</li>
+          <li>Peso: {{item.mass.kg}}</li>
+          <li>Motor: {{item.engines.type}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+

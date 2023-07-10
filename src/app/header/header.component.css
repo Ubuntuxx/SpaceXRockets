@@ -1,0 +1,36 @@
+header {
+  background-image: url("https://live.staticflickr.com/65535/49934682271_fd6a31becc_o.jpg");
+  height: 60rem;
+  background-size: cover;
+  background-position: center center;
+}
+
+.titulo {
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  padding-top: 150px;
+}
+
+.header__button {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.header__texto p {
+  text-align: center;
+  color: white;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+
+button {
+  width: 15rem;
+  height: 4rem;
+}

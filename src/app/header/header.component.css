@@ -19,18 +19,17 @@ header {
   padding-top: 150px;
 }
 
-.header__texto p {
+ .header__texto p {
   text-align: center;
-  color: white;
+  color: white; 
 }
 
-button a {
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-}
 
 button {
   width: 15rem;
   height: 4rem;
+  border: 0 solid;
+  color: white;
+  border-radius: 12px;
+  background-color: green;
 }
